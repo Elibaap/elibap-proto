@@ -1,0 +1,78 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@400;600;700&family=Montserrat:wght@300;400;600&family=Shadows+Into+Light&display=swap');
+
+/* html {
+  font-family: 'Montserrat', 'Open Sans', 'Sans Serif' !important;
+} */
+
+.separate {
+  border-right: 1px solid black;
+}
+
+.hero-bg {
+  background-image: url("https://via.placeholder.com/1920x1080?text=Elibap");
+  background-size: cover;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-evenly;
+  margin-left: 7em;
+  margin-right: auto;
+}
+
+.hero-body {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fa-angle-left .fa-angle-right {
+  width: 50px;
+  height: 50px;
+}
+
+.category-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-heading {
+  margin-top: 48px;
+}
+
+.product-heading {
+  margin-top: 48px;
+}
+
+.item-grid {
+  margin-top: 48px;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-img {
+  width: 270px;
+  height: 240px;
+  margin-bottom: 48px;
+}
+
+.product-item {
+  margin-right: 24px;
+}
